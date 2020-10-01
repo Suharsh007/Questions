@@ -4,7 +4,6 @@ import java.io.*;
 class LinkedList1 { 
   
     static Node head; 
-  
     
     static class Node { 
   
@@ -93,11 +92,11 @@ class LinkedList1 {
   
     public static void main(String[] args) 
     { 
-       Scanner sc = new Scanner(System.in);
+       Scanner sc1 = new Scanner(System.in);
         LinkedList1 list = new LinkedList1();
-		int n =sc.nextInt();
+		int n =sc1.nextInt();
         for(int i=0;i<n;i++){
-            int num = sc.nextInt();
+            int num = sc1.nextInt();
             list = insert(list, num);
         }
         list.rearrange(head); 
