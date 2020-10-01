@@ -5,6 +5,7 @@ public class  Prog2
     public static void main(String args[])
 
 {
+    //Hum sabko T-shirt milegi badi maza aayegi Shinchan
     Scanner sc2 = new Scanner(System.in);
         int n= sc2.nextInt();
         int[][] a = new int[n][n];
