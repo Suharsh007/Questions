@@ -1,17 +1,17 @@
 import java.util.*;
 public class Prog2 {
      static Stack<Character> stck = new Stack<>();
-    static void insertBottom( char x)
+    static void insertBottom( char x1)
     {
      if(stck.isEmpty())
      {
-         stck.push(x);
+         stck.push(x1);
      }
 
      else{
          char a = stck.peek();
          stck.pop();
-         insertBottom(x);
+         insertBottom(x1);
          stck.push(a);
      }
     }
