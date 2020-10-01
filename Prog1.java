@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.*;
 
-public class  Prog1 
+public class  Prog2 
     public static void main(String args[])
 
 {
