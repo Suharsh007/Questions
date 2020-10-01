@@ -94,8 +94,8 @@ class LinkedList1 {
     { 
        Scanner sc1 = new Scanner(System.in);
         LinkedList1 list = new LinkedList1();
-		int n =sc1.nextInt();
-        for(int i=0;i<n;i++){
+		int n1 =sc1.nextInt();
+        for(int i=0;i<n1;i++){
             int num = sc1.nextInt();
             list = insert(list, num);
         }
