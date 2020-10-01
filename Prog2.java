@@ -7,6 +7,7 @@ public class Prog2 {
      {
          stck.push(x1);
      }
+         //Tum pagal ho gaye ho kya karun
 
      else{
          char a = stck.peek();
