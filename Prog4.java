@@ -4,6 +4,7 @@ import java.util.*;
 
 class LinkedList
 {
+	//My name is Shubh
     static Node head;
  
     static class Node{
