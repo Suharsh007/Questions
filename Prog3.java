@@ -6,6 +6,7 @@ class LinkedList1 {
     static Node head; 
     
     static class Node { 
+	    //I am your brother which studies in class 8th
   
         int data; 
         Node next; 
