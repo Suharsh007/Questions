@@ -102,15 +102,15 @@ class LinkedList
  
 	public static void main (String[] args) throws IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
  
 		LinkedList list = new LinkedList();
  
-		int n =sc.nextInt();
+		int n =s.nextInt();
  
 		
         for(int i=0;i<n;i++){
-            int num = sc.nextInt();
+            int num = s.nextInt();
             list = insert(list, num);
         }
         head = sortList(head);
