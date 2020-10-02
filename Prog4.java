@@ -2,7 +2,7 @@ import java.lang.*;
 import java.io.*;
 import java.util.*;
 
-class LinkedList
+class Linked
 {
 	//My name is Shubh
     static Node head;
