@@ -39,7 +39,7 @@ public class Prog2 {
         System.out.println(stck);
         reverse();
         System.out.println("Reverse Stack");
-        System.out.println(stck);
+        System.out.print(stck);
         sc.close();
     }
 }
