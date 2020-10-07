@@ -11,8 +11,8 @@ class Linked
         int data;
         Node next;
  
-        public Node(int d){
-            data = d;
+        public Node(int r){
+            data = r;
         }
     }
  
